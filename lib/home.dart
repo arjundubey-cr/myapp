@@ -16,17 +16,17 @@ class _HomePageState extends State<HomePage> {
     var name = 'Student_Name';
     var studentEmail = "demo@email.com";
     return MaterialApp(
-        theme: ThemeData(brightness: Brightness.values[1]),
+        theme: ThemeData.dark(),
         home: Scaffold(
             appBar: AppBar(
               title: new Text('FOE-SAT'),
-              backgroundColor: Colors.black,
+              //backgroundColor: Colors.black,
               elevation: 0, //primary color
             ),
             /*** Everything inside the body will be
            * printed on the main screen.
            * CODE FOR HOME PAGE STARTS FROM HERE**/
-            backgroundColor: Colors.white, //primary color
+            //backgroundColor: Colors.white, //primary color
             body: Column(
               children: <Widget>[
                 SizedBox(

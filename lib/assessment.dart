@@ -21,7 +21,7 @@ class _AssessmentState extends State<Assessment> {
                   size: 25,
                   color: Colors.white,
                 ))),
-        body: ListView(
+        body: SafeArea(child: ListView(
           scrollDirection: Axis.vertical,
           children: <Widget>[
             SizedBox(
@@ -29,14 +29,15 @@ class _AssessmentState extends State<Assessment> {
             ),
             create(),
           ],
-        ));
+        ))
+    );
   }
 }
 
 /// The below code is used for creating tiles for each semester
 /// just put these tiles in for loop with number of semesters passed
 /// and you'll get the result.
-create() {
+SizedBox create() {
   return SizedBox(
     height: 250,
     width: 400,

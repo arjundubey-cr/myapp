@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "744328364915",
+    "firebase_url": "https://studyculum-fe5fb.firebaseio.com",
+    "project_id": "studyculum-fe5fb",
+    "storage_bucket": "studyculum-fe5fb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:744328364915:android:b818b5b7e12817cb443b06",
+        "android_client_info": {
+          "package_name": "com.example.myapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "744328364915-1m2lv2l53gq33l7g075k703h8fp5h87n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzJgAHGcRjIV2fJScX8EECkRuQJFv3XT8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "744328364915-1m2lv2l53gq33l7g075k703h8fp5h87n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
